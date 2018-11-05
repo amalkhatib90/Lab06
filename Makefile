@@ -1,7 +1,7 @@
 #	Author: John Gibbons
 #	Date: 2016.10.26
 
-
+#Did not work until I added "-no-pie", if caused any problems please remove it.
 #Add needed Test.o
 prog: main.o Test.o
 	g++ -g -Wall -std=c++11 -no-pie main.o LinkedListOfInts.o Test.o -o prog
