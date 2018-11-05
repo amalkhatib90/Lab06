@@ -1,0 +1,4 @@
+1. isEmpty() returned true whether the list is empty or not.
+2. addBack(x) added to the front instead
+3. removeBack() did not delete any element
+4. removeFront() did not delete any element
